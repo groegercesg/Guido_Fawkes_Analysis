@@ -9,7 +9,7 @@ articleDetails = []
 article_list = getLinksForArticles()
 for i in range(0, len(article_list)):
     individual_article_date = getDateMetadataForLink(article_list[i])
-    current_title, article_details, post_time, list_links = getContentFromLink(article_list[i])
+    current_title, article_details, post_time, list_links = getContentFromLink(article_list[i], i, len(article_list))
     articleDetails.append(
         {
             'Date': individual_article_date,
@@ -17,7 +17,8 @@ for i in range(0, len(article_list)):
             'Title': current_title,
             'Article Details': article_details,
             'Post Time': post_time,
-            'List Links': list_links
+            'List Links': list_links,
+            'Number of Links': len(list_links)
         }
     )
 
