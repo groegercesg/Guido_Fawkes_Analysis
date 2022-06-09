@@ -70,6 +70,10 @@ def getContentFromLink(link, current, total):
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
             elif "most read and shared stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+            elif "best and most read stories" in p_locator[i].text:
+                article_details = p_locator[i].text.replace(u'\xa0', u' ')
+            elif "top 7 stories" in p_locator[i].text:
+                article_details = p_locator[i].text.replace(u'\xa0', u' ')
     
     post_time = soup.find("span", {"class": "posted-on blue-grey--text text--darken-4"}).text.split("@", 1)[1].lstrip().rstrip()
         
