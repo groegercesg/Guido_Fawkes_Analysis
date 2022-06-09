@@ -1,17 +1,15 @@
 # Modules
 from bs4 import BeautifulSoup
 import requests
-from dateutil import relativedelta
 from datetime import datetime
 
 def getDateMetadataForLink(link):
-    year = int(BASE_URL.split(".com/",1)[1].split("/",1)[0])
-    month = int(BASE_URL.split(".com/",1)[1].split("/",1)[1].split("/",1)[0])
-    day = int(BASE_URL.split(".com/",1)[1].split("/",1)[1].split("/",1)[1].split("/",1)[0])
+    year = int(link.split(".com/",1)[1].split("/",1)[0])
+    month = int(link.split(".com/",1)[1].split("/",1)[1].split("/",1)[0])
+    day = int(link.split(".com/",1)[1].split("/",1)[1].split("/",1)[1].split("/",1)[0])
     date = datetime(year, month, day)
-    index = int(BASE_URL[BASE_URL.rindex('-')+1:].split("/",1)[0])
     
-    return [date, year, month, day, index]
+    return date
 
 # Code Plan
     # Iterate through pages of the 'Saturday 7-up' tag
@@ -32,20 +30,16 @@ def getLinksForArticles():
     while valid_url is not True:
         page = requests.get(TAG_URL+str(current_page)+"/")
         soup = BeautifulSoup(page.content, "html.parser")
-        print(soup.title.string)
         if soup.title.string != "Page not found – Guido Fawkes":
             links = soup.find_all("a", {"class": "link--title"})
-            original_size = len(page_links)
+            # original_size = len(page_links)
             for i in range(0, len(links)):
                 if links[i]['href'] not in page_links:
                     page_links.append(links[i]['href'])
-            print("In page: " + str(current_page) + ", we found: " + str(len(page_links)-original_size) + " articles.")
+            # print("In page: " + str(current_page) + ", we found: " + str(len(page_links)-original_size) + " articles.")
             current_page += 1
         else:
             valid_url = True
             
     print("Overall, we found " + str(len(page_links)) + " articles")
     return page_links
-    
-links = getLinksForArticles()
-print(links)
