@@ -1,5 +1,5 @@
 from article_detail_functions import *
 
-link = "https://order-order.com/2022/05/07/saturday-7-up-179/"
+link = "https://order-order.com/2011/04/16/saturday-seven-up-76/"
 
-print(getContentFromLink(link, 1, 13))
+print(getContentFromLink(link, 1, 11))

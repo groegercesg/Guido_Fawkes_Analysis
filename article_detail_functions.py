@@ -46,6 +46,8 @@ def getLinksForArticles():
     print("Overall, we found " + str(len(page_links)) + " articles")
     return page_links
 
+matches = ["visitors", "pages"]
+
 def getContentFromLink(link, current, total):
     if ((current % int(total*0.1)) == 0):
         print("We are on article " + str(current+1) + " out of " + str(total+1))
@@ -63,17 +65,29 @@ def getContentFromLink(link, current, total):
         p_locator = soup.find_all("p")
         for i in range(0, len(p_locator)):
             if p_locator[i].text == "The top stories last week in order of popularity were:":
-                article_details = p_locator[i-1].text.replace(u'\xa0', u' ')
+                if any(x in p_locator[i-1].text.replace(u'\xa0', u' ') for x in matches):
+                    article_details = p_locator[i-1].text.replace(u'\xa0', u' ')
+                    break
+                else:
+                    for j in range(0, len(p_locator)):
+                        if all(x in p_locator[j].text.replace(u'\xa0', u' ') for x in matches):
+                            article_details = p_locator[j].text.replace(u'\xa0', u' ')
+                            break
             elif "The top stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+                break
             elif "most popular stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+                break
             elif "most read and shared stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+                break
             elif "best and most read stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+                break
             elif "top 7 stories" in p_locator[i].text:
                 article_details = p_locator[i].text.replace(u'\xa0', u' ')
+                break
     
     post_time = soup.find("span", {"class": "posted-on blue-grey--text text--darken-4"}).text.split("@", 1)[1].lstrip().rstrip()
         
