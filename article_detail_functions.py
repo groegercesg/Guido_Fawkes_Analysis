@@ -46,7 +46,8 @@ def getLinksForArticles():
     print("Overall, we found " + str(len(page_links)) + " articles")
     return page_links
 
-matches = ["visitors", "pages"]
+trimmed_matches = ["visitors", "pages"]
+matches = ["visitors", "pages", "visits", "pageviews"]
 
 def getContentFromLink(link, current, total):
     if ((current % int(total*0.1)) == 0):
@@ -70,7 +71,7 @@ def getContentFromLink(link, current, total):
                     break
                 else:
                     for j in range(0, len(p_locator)):
-                        if all(x in p_locator[j].text.replace(u'\xa0', u' ') for x in matches):
+                        if all(x in p_locator[j].text.replace(u'\xa0', u' ') for x in trimmed_matches):
                             article_details = p_locator[j].text.replace(u'\xa0', u' ')
                             break
             elif "The top stories" in p_locator[i].text:
