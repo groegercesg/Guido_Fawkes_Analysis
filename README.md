@@ -36,9 +36,27 @@ Now, we will take a look at the relationship between visitors and visits.
 
 This graph actually alludes to something quite positive about the state of Guido Fawkes, the number of visits that a visitor makes in a week is firstly more than one (i.e. multiple advertising impressions) but secondly increasing. People on average are returning an increasing amount of times throughout the week the read the posts. The average weekly increase in visits per visitor is 0.235 (3 s.f.) pages, although this figure masks some occasional sluggish peformance.
 
-**Make cumulative visitorship graph**
+**Make cumulative visits graph**
 
 ### Page Views
+
+The linegraph of page views, the amount of views that all pages of the Guido Fawkes website recieved in the past week, is a rather telling one.
+
+![page views line graph](images/page_visits.png)
+
+Once again it shows similar features to graphs above, it has the decline in the past two years and sporadic occasions of dramatic increase. If we isolate the range to the final two years of Page Views on the Guido Fawkes site.
+
+**Zoom in on final two years**
+
+We see that
+
+**Page views per visit**
+
+**Page views per visitor**
+
+**Page views per visit per visitor?**
+
+**Make cumulative page views graph**
 
 ## Analysis about Saturday Seven Posts
 
