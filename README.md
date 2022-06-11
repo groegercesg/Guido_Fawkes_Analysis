@@ -42,17 +42,21 @@ This graph actually alludes to something quite positive about the state of Guido
 
 The linegraph of page views, the amount of views that all pages of the Guido Fawkes website recieved in the past week, is a rather telling one.
 
-![page views line graph](images/page_visits.png)
+![page views line graph](images/page_views.png)
 
 Once again it shows similar features to graphs above, it has the decline in the past two years and sporadic occasions of dramatic increase. If we isolate the range to the final two years of Page Views on the Guido Fawkes site.
 
-**Zoom in on final two years**
+![page views last two years line graph](images/page_views_last_two_years.png)
 
-We see that
+We can see that page views on the site have collapsed massively in the past two years. Consistently trending down, the page views have near halved in the past two years, with the trendline showing a significant slope. When we turn to look at Page views per visit:
 
-**Page views per visit**
+![page views per visit line graph](images/page_views_per_visit.png)
 
-**Page views per visitor**
+This particular graph isn't stand-out, we see overall a decrease in the amount of pages that a user clicks on per visit to the site. This is likely because the style of the Guido Fawkes site is that from the main page, you can see  all the content of that page's stories without having to click. However nonetheless it's an interesting trend - but isolated to a single visit. When now expand our analysis to look the number of Page Views per Visitor:
+
+![page views per visitor line graph](images/page_views_per_visitor.png)
+
+When looking at the Page Views per Visitor line graph
 
 **Page views per visit per visitor?**
 
