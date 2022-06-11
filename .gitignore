@@ -1,2 +1,6 @@
 __pycache__/
 .ipynb_checkpoints/
+node_modules/
+geckodriver.log
+package.json
+package-lock.json

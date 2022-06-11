@@ -10,7 +10,7 @@ All of the 'Saturday 7-up' articles can be seen from viewing the following [tag]
 
 ## Growth of Guido Fawkes
 
-This section looks at the growth of the Guido Fawkes ~~blog~~ website over the past 10 years of data available on the website.
+This section looks at the growth of the Guido Fawkes ~~blog~~ website over the past 10 years of publicly available data scraped from the website.
 
 ### Visitors
 
@@ -72,12 +72,30 @@ This section looks at the ~~potentially~~ less consequential changes in the cont
 
 ### Title
 
-### Post Time
+![title bar graph](images/titles.png)
+
+This graph shows how typically we have the blog post called one of two things, however on occasion a different title is used. To understand when the different titles are used, let's use a timeline to visualise this:
+
+![title timeline](images/titles_timeline.png)
+
+We can see clear trends in the naming of Saturday Seven Up posts, our data shows that historically the title name of "Saturday Seven Up" was popular before shifting to "Saturday 7-Up" - with brief usages of other titles. 
+
 
 ### Number of Articles Featured
+
+![number of articles bar graph](images/num_featured_articles.png)
+
+From this Bar Graph we can see how predominantly 7 featured articles are given in these posts, sometimes however more are shared.
+
+![article headline wordcloud](images/guido_wordcloud.png)
+
+The wordcloud above, represents the topics that Guido Fawkes talks about most frequently. These are the most common words from the title of the top 7 (or 6/8/9, see above) stories for every week. Clearly topics about Labour, the BBC and Brexit get a lot of airtime 
+
+
+### Post Time
 
 ## File List
 
 - `analysis.ipynb` - File for all the analysis we need to perform, using our data collected
-- `article_details.py` - Get details to all articles and save it as a .pkl file
-- `article_detail_functions.py` - Get all the links to articles and content from an article link.
+- `article_details.py` - Get details to all articles and save it as a _.pkl_ file
+- `article_detail_functions.py` - Get all the links to articles and content from an individual article link.
