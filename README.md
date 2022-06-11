@@ -89,10 +89,13 @@ From this Bar Graph we can see how predominantly 7 featured articles are given i
 
 ![article headline wordcloud](images/guido_wordcloud.png)
 
-The wordcloud above, represents the topics that Guido Fawkes talks about most frequently. These are the most common words from the title of the top 7 (or 6/8/9, see above) stories for every week. Clearly topics about Labour, the BBC and Brexit get a lot of airtime 
-
+The wordcloud above, represents the topics that Guido Fawkes talks about most frequently. These are the most common words from the title of the top 7 (or 6/8/9, see above) stories for every week. Clearly topics about Labour, the BBC and Brexit get a lot of airtime.
 
 ### Post Time
+
+Finally we look at the time at which these Saturday Seven Posts are made, below we create a Histogram to show this:
+
+
 
 ## File List
 
