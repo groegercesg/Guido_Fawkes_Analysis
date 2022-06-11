@@ -1,6 +1,6 @@
 # Guido Fawkes Analysis
 
-Scraping [Guido Fawkes]https://order-order.com/about/)'s Saturday Seven Up pages to derive some insights into the _most widely read politics source in Westminster_.
+Scraping [Guido Fawkes](https://order-order.com/about/)'s Saturday Seven Up pages to derive some insights into the _most widely read politics source in Westminster_.
 
 ## Who?
 
@@ -20,7 +20,9 @@ By looking at the change in visitor numbers, we can see how the public knowledge
 
 Significantly more visited in the mid-2010s, the site has seen stagnation and then decline in the past 2 years. Despite this, over the 10 year period that I have been able to scrape data for we have an average weekly increase in viewership of 32835 (owing to previously high levels of visitorship).
 
-**Make cumulative visitorship graph**
+![visitors sum graph](images/cumulative_visitors.png)
+
+The above graph is a cumulative graph of the visitorship that the Guido Fawkes site has seen across the over 10 years of data that we have gathered here. However, as the site has been in operation since 2004, we are missing nearly half of the data required for a complete analysis and so the true number of total visitors could be even higher. However I would suspect that our current total of over 92 million is an overestimate, as this statistic doesn't (and can't) track repeat visitors across weeks.
 
 ### Visits
 
@@ -36,7 +38,9 @@ Now, we will take a look at the relationship between visitors and visits.
 
 This graph actually alludes to something quite positive about the state of Guido Fawkes, the number of visits that a visitor makes in a week is firstly more than one (i.e. multiple advertising impressions) but secondly increasing. People on average are returning an increasing amount of times throughout the week the read the posts. The average weekly increase in visits per visitor is 0.235 (3 s.f.) pages, although this figure masks some occasional sluggish peformance.
 
-**Make cumulative visits graph**
+![visits sum graph](images/cumulative_visits.png)
+
+In this graph we see the historically impressive growth of visits to the Guido Fawkes site, although since 2020 the cumulative graph slope has been slowing, owing to the decrease in visits that I've addressed above. This statistic is impressive however, over the near 12 years of data I have gathered, some 282 million visits to the site have been recorded.
 
 ### Page Views
 
@@ -56,11 +60,11 @@ This particular graph isn't stand-out, we see overall a decrease in the amount o
 
 ![page views per visitor line graph](images/page_views_per_visitor.png)
 
-When looking at the Page Views per Visitor line graph we see some more encouraging trends about the site, that the average number of pages that a visitor views each week are increasing. One can then assume from this that visitors are thus spending more time on the site, leading to more advertising impressions and perhaps more revenue. 
+When looking at the Page Views per Visitor line graph we see some more encouraging trends about the site, that the average number of pages that a visitor views each week are increasing. One can then assume from this that visitors are spending more time on the site in a week, leading to more advertising impressions and perhaps more revenue. 
 
-**Page views per visit per visitor?**
+![page views sum graph](images/cumulative_page_views.png)
 
-**Make cumulative page views graph**
+The final graph I present in this section alludes to many trends that I have discussed earlier; the decrease over the whole of the data and the slight uptick in the past two years. And this graph does present a monumental statistic, that pages on the Guido Fawkes website (read stories) have been viewed 458 million times!
 
 ## Analysis about Saturday Seven Posts
 
