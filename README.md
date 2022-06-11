@@ -56,7 +56,7 @@ This particular graph isn't stand-out, we see overall a decrease in the amount o
 
 ![page views per visitor line graph](images/page_views_per_visitor.png)
 
-When looking at the Page Views per Visitor line graph
+When looking at the Page Views per Visitor line graph we see some more encouraging trends about the site, that the average number of pages that a visitor views each week are increasing. One can then assume from this that visitors are thus spending more time on the site, leading to more advertising impressions and perhaps more revenue. 
 
 **Page views per visit per visitor?**
 
@@ -71,8 +71,6 @@ This section looks at the ~~potentially~~ less consequential changes in the cont
 ### Post Time
 
 ### Number of Articles Featured
-
-###
 
 ## File List
 
