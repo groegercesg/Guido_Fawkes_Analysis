@@ -92,7 +92,11 @@ The wordcloud above, represents the topics that Guido Fawkes talks about most fr
 
 ### Post Time
 
-Finally we look at the time at which these Saturday Seven Posts are made, below we create a Histogram to show this:
+Finally we look at the time at which these Saturday Seven Posts are made, below we create a line graph to demonstate the hour in which these posts were made. Times use the 24-hour clock.
+
+![post times line graph](images/post_times.png)
+
+We see that the vast majority of posts were made between 07:00 and 08:00, 85.9% (3 s.f.) to be precise, whereas few other hours had posts made in at all.
 
 ## File List
 
