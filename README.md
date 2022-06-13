@@ -18,7 +18,7 @@ By looking at the change in visitor numbers, we can see how the public knowledge
 
 ![visitors line graph](images/visitors.png)
 
-Significantly more visited in the mid-2010s, the site has seen stagnation and then decline in the past 2 years. Despite this, over the 10 year period that I have been able to scrape data for we have an average weekly increase in viewership of 32835 (owing to previously high levels of visitorship).
+Significantly more visited in the mid-2010s, the site has seen stagnation and then decline in the past 2 years. Despite this, over the 10 year period that I have been able to scrape data for we have an average weekly change in viewership of 184 viewers (owing to previously high levels of visitorship, but a recent slump).
 
 ![visitors sum graph](images/cumulative_visitors.png)
 
@@ -30,13 +30,13 @@ The linegraph of visits looks remarkably similar to the visitors graph, although
 
 ![visits line graph](images/visits.png)
 
-As mentioned earlier, it demonstrates similar features to the Visitors line graph, included sporatic periods of large weekly increase and a tailing off in site performance in the past two years. This tailing off appears more dramatic than that of the Visitors line graph - although that may just be a function of the relationship between visitors and visits. The average weekly increase in visits is 75583 (owing to previously high levels of visiting).
+As mentioned earlier, it demonstrates similar features to the Visitors line graph, included sporatic periods of large weekly increase and a tailing off in site performance in the past two years. This tailing off appears more dramatic than that of the Visitors line graph - although that may just be a function of the relationship between visitors and visits. The average weekly change in visits is 510 visits (owing to previously high levels of visiting, but a recent slump).
 
 Now, we will take a look at the relationship between visitors and visits.
 
 ![visits per visitor line graph](images/visits_per_visitor.png)
 
-This graph actually alludes to something quite positive about the state of Guido Fawkes, the number of visits that a visitor makes in a week is firstly more than one (i.e. multiple advertising impressions) but secondly increasing. People on average are returning an increasing amount of times throughout the week the read the posts. The average weekly increase in visits per visitor is 0.235 (3 s.f.) pages, although this figure masks some occasional sluggish peformance.
+This graph actually alludes to something quite positive about the state of Guido Fawkes, the number of visits that a visitor makes in a week is firstly more than one (i.e. multiple advertising impressions) but secondly increasing. People on average are returning an increasing amount of times throughout the week the read the posts. The average weekly change in visits per visitor is -0.000219 (3 s.f.) pages, although this figure masks consistent sluggish peformance.
 
 ![visits sum graph](images/cumulative_visits.png)
 
@@ -48,19 +48,19 @@ The linegraph of page views, the amount of views that all pages of the Guido Faw
 
 ![page views line graph](images/page_views.png)
 
-Once again it shows similar features to graphs above, it has the decline in the past two years and sporadic occasions of dramatic increase. If we isolate the range to the final two years of Page Views on the Guido Fawkes site.
+Once again it shows similar features to graphs above, it has the decline in the past two years, the average weekly change in Page Views is 791, and sporadic occasions of dramatic increase. If we isolate the range to the final two years of Page Views on the Guido Fawkes site.
 
 ![page views last two years line graph](images/page_views_last_two_years.png)
 
-We can see that page views on the site have collapsed massively in the past two years. Consistently trending down, the page views have near halved in the past two years, with the trendline showing a significant slope. When we turn to look at Page views per visit:
+We can see that page views on the site have collapsed massively in the past two years. Consistently trending down, the page views have near halved in the past two years, with the trendline showing a significant slope. The weekly average change in page views was -6357, clearly demarking this declining viewership. When we turn to look at Page views per visit:
 
 ![page views per visit line graph](images/page_views_per_visit.png)
 
-This particular graph isn't stand-out, we see overall a decrease in the amount of pages that a user clicks on per visit to the site. This is likely because the style of the Guido Fawkes site is that from the main page, you can see  all the content of that page's stories without having to click. However nonetheless it's an interesting trend - but isolated to a single visit. When now expand our analysis to look the number of Page Views per Visitor:
+This particular graph isn't stand-out, we see overall a decrease in the amount of pages that a user clicks on per visit to the site. This is likely because the style of the Guido Fawkes site is that from the main page, you can see all the content of that page's stories without having to click. However nonetheless it's an interesting trend - but isolated to a single visit. When now expand our analysis to look the number of Page Views per Visitor:
 
 ![page views per visitor line graph](images/page_views_per_visitor.png)
 
-When looking at the Page Views per Visitor line graph we see some more encouraging trends about the site, that the average number of pages that a visitor views each week are increasing. One can then assume from this that visitors are spending more time on the site in a week, leading to more advertising impressions and perhaps more revenue. 
+When looking at the Page Views per Visitor line graph we see some more encouraging trends about the site, that the average number of pages that a visitor views each week are increasing. One can then assume from this that visitors are spending more time on the site in a week, leading to more advertising impressions and perhaps more revenue.
 
 ![page views sum graph](images/cumulative_page_views.png)
 
@@ -78,8 +78,7 @@ This graph shows how typically we have the blog post called one of two things, h
 
 ![title timeline](images/titles_timeline.png)
 
-We can see clear trends in the naming of Saturday Seven Up posts, our data shows that historically the title name of "Saturday Seven Up" was popular before shifting to "Saturday 7-Up" - with brief usages of other titles. 
-
+We can see clear trends in the naming of Saturday Seven Up posts, our data shows that historically the title name of "Saturday Seven Up" was popular before shifting to "Saturday 7-Up" - with brief usages of other titles.
 
 ### Number of Articles Featured
 
@@ -94,8 +93,6 @@ The wordcloud above, represents the topics that Guido Fawkes talks about most fr
 ### Post Time
 
 Finally we look at the time at which these Saturday Seven Posts are made, below we create a Histogram to show this:
-
-
 
 ## File List
 
